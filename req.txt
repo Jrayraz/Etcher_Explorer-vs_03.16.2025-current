@@ -1,0 +1,9 @@
+apt-get install genisoimae pipenv python3-full python3-dev ffmpeg ifupdown build-essential libssl-dev libffi-dev snapd dolphin cpufrequtils isc-dhcp-client ubuntu-drivers-common spyder nuitka libxcb-cursor0 pcscd gnome-screenshot smartmontools aidl sqlite3 libsqlite3-dev curl portaudio19-dev radeontop mesa-utils python3-gi gir1.2-vte-2.91 libglib2.0-dev libgirepository1.0-dev cmake libcairo2-dev libvte-2.91-dev libgtk-3-dev p7zip-full gddrescue gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly xserver-xorg-video-radeon libx11-dev libxft-dev libfontconfig-dev python3-magic xdotool e2fsprogs dosfstools ntfs-3g exfatprogs  openjdk-11-jdk -y || true
+
+pipenv install
+
+pipenv run pip install PySide6 tk logging cryptography psutil py7zr screeninfo pydub Pillow opencv-python-headless requests beautifulsoup4 nuitka ffpyplayer xtarfile[zstd] pyinstall matplotlib buildozer cython googlesearch-python ttkbootstrap ntplib nltk speechrecognition pyaudio scipy scikit-learn numpy PyGObject vte opencv-python send2trash openai python-gnupg keyring playwright
+
+piepnv run playwright install
+
+
